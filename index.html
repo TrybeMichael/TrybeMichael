@@ -9,18 +9,41 @@
 <style>
     .botao{
         color: aliceblue;
-        background-color: darkgreen;
+        background-color: rgb(2, 62, 138);
         border-radius: 4px;
         padding: 15px 30px;
 
     }
+    body{
+        background: hsla(239, 94%, 19%, 1);
+
+background: linear-gradient(90deg, hsla(239, 94%, 19%, 1) 0%, hsla(201, 100%, 36%, 1) 47%, hsla(214, 97%, 27%, 1) 100%);
+
+background: -moz-linear-gradient(90deg, hsla(239, 94%, 19%, 1) 0%, hsla(201, 100%, 36%, 1) 47%, hsla(214, 97%, 27%, 1) 100%);
+
+background: -webkit-linear-gradient(90deg, hsla(239, 94%, 19%, 1) 0%, hsla(201, 100%, 36%, 1) 47%, hsla(214, 97%, 27%, 1) 100%);
+
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#03045E", endColorstr="#0077B6", GradientType=1 );
+    }
+
+    #bg-ul{
+        background-color: rgb(2, 62, 138);
+    }
+    #title{
+
+        background-image: image url(images/fundo-de-galaxia-em-estilo-de-papel_23-2148975341.jpg);
+
+    }
+
+
 </style>
 </head>
-<body>
-    <h1>Michael Douglas Souza Camargo</h1>
+<body >
+  
+
+    <h1 id="title">Michael Douglas Souza Camargo</h1>
     
     <ul>
-    <a class="botao" href="#foto" >UP</a>
     <a class="botao" href="https://pt.stackoverflow.com/" target="_blank">Stack Overflow</a>
     <a class="botao" href="#habilidades" >Habilidades</a>  
         <a class="botao" href="#informacoes" >Informações</a>
@@ -28,7 +51,7 @@
     </ul>
 
     <img id="foto" src="/images/foto.jpeg" alt="Foto de identificação do dono da página" width="500px">
-    <ul>
+    <ul id="bg-ul">
         <p><li>Nacionalidade: Brasileiro</li></p>
         <p><li id="informacoes">Cidade: Ponta Grossa</li></p>
         <p><li>Estado: Paraná</li></p>
@@ -39,5 +62,8 @@
         <img src="/images/html5.png" alt="html5" width="50px"><img src="/images/css.png" alt="css" width="50px"><img src="images/javascript.png" alt="javascript" width="50px">
     </ul>
     
+    <a class="botao" href="#title" >UP</a>
+
+
 </body>
 </html>
