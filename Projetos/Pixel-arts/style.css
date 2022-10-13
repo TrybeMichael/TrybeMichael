@@ -1,0 +1,22 @@
+.main{
+  background-image:url(https://wallpapercave.com/wp/wp2729921.gif);
+  background-size: cover;
+ 
+}
+
+header{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+#pixel-board{
+  display: flex;
+  justify-content: center;
+}
