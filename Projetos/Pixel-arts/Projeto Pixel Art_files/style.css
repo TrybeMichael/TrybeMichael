@@ -29,8 +29,3 @@ main {
   display: flex;
   justify-content: center;
 }
-
-.color {
-  border: solid 5px white;
-  border-radius: 10px;
-}
