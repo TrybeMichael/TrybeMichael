@@ -38,23 +38,18 @@ window.onload = function () {
     //Aqui eu defino as cores iniciais das minhas caixinhas sendo requisito que sejam cores diferentes e a primeira preta.
     const getDiv = document.getElementsByClassName('color')[0];
     getDiv.style.backgroundColor = 'black';
-    getDiv.style.border = '5px solid white';
     const getDiv2 = document.getElementsByClassName('color')[1];
     getDiv2.style.backgroundColor = 'blue';
-    getDiv2.style.border = '5px solid white';
     const getDiv3 = document.getElementsByClassName('color')[2];
     getDiv3.style.backgroundColor = 'magenta';
-    getDiv3.style.border = '5px solid white';
     const getDiv4 = document.getElementsByClassName('color')[3];
     getDiv4.style.backgroundColor = 'yellow';
-    getDiv4.style.border = '5px solid white';
   }
 
   const createButton = () => {
     const getSection = document.getElementsByTagName('section')[0];
     const button = document.createElement('button');
     button.id = 'button-random-color';
-    button.classList.add('btn','btn-primary');
     button.innerText = 'Cores aleatórias';
     button.style.margin = '30px';
     getSection.appendChild(button);
@@ -97,10 +92,9 @@ window.onload = function () {
     const sectionTable = document.createElement('section');
     sectionTable.id = 'pixel-board';
     sectionTable.style.width = '262px';
-    sectionTable.style.height = '300px';
-    sectionTable.style.border = 'solid 5px white';
-    sectionTable.style.borderRadius = '10px'
-    sectionTable.style.backgroundColor = 'purple';
+    sectionTable.style.height = '262px';
+    // sectionTable.style.border = 'solid 1px black';
+    // sectionTable.style.backgroundColor = 'white';
     sectionTable.style.display = 'flex';
     sectionTable.style.flexDirection = 'row';
     sectionTable.style.flexWrap = 'wrap';
@@ -114,9 +108,8 @@ window.onload = function () {
       tableItem.classList = 'pixel';
       tableItem.style.width = '40px';
       tableItem.style.height = '40px';
-      tableItem.style.border = 'solid 2px green';
+      tableItem.style.border = 'solid 1px black';
       tableItem.style.margin = '5px';
-      tableItem.style.borderRadius = '5px';
       tableItem.style.backgroundColor = 'white';
       getTable.appendChild(tableItem);
     }

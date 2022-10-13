@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<!-- saved from url=(0043)http://127.0.0.1:5500/Pixel-arts/index.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    
+    <title>Projeto Pixel Art</title>
+  <link rel="stylesheet" href="./Projeto Pixel Art_files/style.css"><link rel="stylesheet" href="./Projeto Pixel Art_files/style(1).css"><link href="./Projeto Pixel Art_files/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous"></head>
+  <body class="main">
+    <header>
+      <h1 id="title">Pixel Art Creator</h1>
+    </header>
+
+    <br><br>
+    <main>
+ 
+    <section id="color-palette" style="width: 500px; height: 200px;"><div class="color" style="width: 50px; height: 50px; border: 1px solid black; margin: 30px; display: inline-block; align-content: center; background-color: black;"></div><div class="color" style="width: 50px; height: 50px; border: 1px solid black; margin: 30px; display: inline-block; align-content: center; background-color: rgb(121, 184, 127);"></div><div class="color" style="width: 50px; height: 50px; border: 1px solid black; margin: 30px; display: inline-block; align-content: center; background-color: rgb(205, 130, 12);"></div><div class="color" style="width: 50px; height: 50px; border: 1px solid black; margin: 30px; display: inline-block; align-content: center; background-color: rgb(109, 214, 138);"></div><button id="button-primary" class="selected" style="margin: 30px;">Cores aleatórias</button></section><section id="pixel-board" style="width: 262px; height: 262px; display: flex; flex-flow: row wrap;"><div class="pixel" style="width: 40px; height: 40px; border: 1px solid black; margin: 5px; background-color: white;"></div><div class="pixel" style="width: 40px; height: 40px; border: 1px solid black; margin: 5px; background-color: white;"></div><div class="pixel" style="width: 40px; height: 40px; border: 1px solid black; margin: 5px; background-color: white;"></div><div class="pixel" style="width: 40px; height: 40px; border: 1px solid black; margin: 5px; background-color: white;"></div><div class="pixel" style="width: 40px; height: 40px; border: 1px solid black; margin: 5px; background-color: white;"></div><div class="pixel" style="width: 40px; height: 40px; border: 1px solid black; margin: 5px; background-color: white;"></div><div class="pixel" style="width: 40px; height: 40px; border: 1px solid black; margin: 5px; background-color: white;"></div><div class="pixel" style="width: 40px; height: 40px; border: 1px solid black; margin: 5px; background-color: white;"></div><div class="pixel" style="width: 40px; height: 40px; border: 1px solid black; margin: 5px; background-color: white;"></div><div class="pixel" style="width: 40px; height: 40px; border: 1px solid black; margin: 5px; background-color: white;"></div><div class="pixel" style="width: 40px; height: 40px; border: 1px solid black; margin: 5px; background-color: white;"></div><div class="pixel" style="width: 40px; height: 40px; border: 1px solid black; margin: 5px; background-color: white;"></div><div class="pixel" style="width: 40px; height: 40px; border: 1px solid black; margin: 5px; background-color: white;"></div><div class="pixel" style="width: 40px; height: 40px; border: 1px solid black; margin: 5px; background-color: white;"></div><div class="pixel" style="width: 40px; height: 40px; border: 1px solid black; margin: 5px; background-color: white;"></div><div class="pixel" style="width: 40px; height: 40px; border: 1px solid black; margin: 5px; background-color: white;"></div><div class="pixel" style="width: 40px; height: 40px; border: 1px solid black; margin: 5px; background-color: white;"></div><div class="pixel" style="width: 40px; height: 40px; border: 1px solid black; margin: 5px; background-color: white;"></div><div class="pixel" style="width: 40px; height: 40px; border: 1px solid black; margin: 5px; background-color: white;"></div><div class="pixel" style="width: 40px; height: 40px; border: 1px solid black; margin: 5px; background-color: white;"></div><div class="pixel" style="width: 40px; height: 40px; border: 1px solid black; margin: 5px; background-color: white;"></div><div class="pixel" style="width: 40px; height: 40px; border: 1px solid black; margin: 5px; background-color: white;"></div><div class="pixel" style="width: 40px; height: 40px; border: 1px solid black; margin: 5px; background-color: white;"></div><div class="pixel" style="width: 40px; height: 40px; border: 1px solid black; margin: 5px; background-color: white;"></div><div class="pixel" style="width: 40px; height: 40px; border: 1px solid black; margin: 5px; background-color: white;"></div></section></main>
+    <br>
+
+    <script src="./Projeto Pixel Art_files/script.js"></script>
+  <!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+
+</body></html>
